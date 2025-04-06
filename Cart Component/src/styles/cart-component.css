@@ -1,0 +1,30 @@
+.cart-component {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 85%;
+  margin: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  display: grid;
+  padding: 1rem;
+}
+
+.card * {
+  align-self: center;
+  margin: 0.4rem;
+}
+
+.product-image {
+  width: 150px;
+  justify-self: center;
+}
+
+.product-image img {
+  width: 100%;
+  margin: 0;
+}
